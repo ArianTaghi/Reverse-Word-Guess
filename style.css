@@ -1,0 +1,26 @@
+body {
+    font-family: "Arial";
+    font-size: 1.5em;
+    text-align: center;
+}
+.btns {
+    font-family: Helvetica;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: background-color 0.35s;
+}
+.btns:hover {
+    background-color: rgb(222, 54, 255);
+}
+#guessInput {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 6px; 
+  background-color: #f8f8f8;
+}
